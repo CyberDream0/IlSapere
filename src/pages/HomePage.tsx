@@ -106,7 +106,7 @@ function HomePage() {
             <ServiceCard
               title="Corsi di ballo e attivita' fisica"
               description="Corsi di tango argentino e ginnastica soft. Lezioni per tutte le età e livelli di esperienza."
-              imageUrl="/immaginetango.jpg"
+              imageUrl="/assets/immaginetango.jpg"
               icon={<Music className="w-8 h-8 text-primary-600" />}
               link="/servizi/ballo"
             />
