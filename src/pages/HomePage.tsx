@@ -290,18 +290,22 @@ function HomePage() {
           <div className="mt-12 pt-8 border-t border-secondary-700 text-center">
             <p className="text-sm text-secondary-400">© 2019-2025 Centro Studi Il Sapere. Tutti i diritti riservati.</p>
             <div className="mt-2 flex justify-center space-x-6">
-              <Link 
-                to="/privacy-policy"
+              <a 
+                href="/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-xs text-secondary-400 hover:text-white transition-colors"
               >
                 Privacy Policy
-              </Link>
-              <Link 
-                to="/cookie-policy"
+              </a>
+              <a 
+                href="/cookie-policy"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-xs text-secondary-400 hover:text-white transition-colors"
               >
                 Cookie Policy
-              </Link>
+              </a>
             </div>
           </div>
         </div>
