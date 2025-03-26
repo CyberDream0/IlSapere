@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 40px !important;
+}
+
+.swiper-slide {
+  height: auto !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 40px !important;
+  height: 40px !important;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  color: #1e293b !important;
+  transition: all 0.3s ease;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: white;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 2rem;
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background: #cbd5e1 !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0284c7 !important;
+}
+
+.testimonial-card {
+  transform: translateY(0);
+  transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  will-change: transform, box-shadow;
+  height: 100%;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Gallery styles */
+.gallery-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.gallery-pagination .swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  background: rgba(255, 255, 255, 0.6) !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-pagination .swiper-pagination-bullet-active {
+  background: #ffffff !important;
+  transform: scale(1.2);
+}
+
+/* Gallery navigation buttons */
+.gallery-button-prev,
+.gallery-button-next {
+  opacity: 1 !important;
+  width: 40px !important;
+  height: 40px !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.gallery-button-prev:hover,
+.gallery-button-next:hover {
+  background: white !important;
+  transform: scale(1.1) !important;
+}
+
+/* Mobile gallery navigation */
+@media (max-width: 768px) {
+  .gallery-button-prev,
+  .gallery-button-next {
+    opacity: 1 !important;
+  }
+}
