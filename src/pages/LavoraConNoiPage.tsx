@@ -65,14 +65,6 @@ const LavoraConNoiPage = () => {
         const fileExt = formData.cv.name.split('.').pop();
         const fileName = `${Date.now()}.${fileExt}`;
 
-        // First check if the bucket exists
-        const { data: buckets } = await supabase.storage.listBuckets();
-        const cvsBucketExists = buckets?.some(bucket => bucket.id === 'cvs');
-
-        if (!cvsBucketExists) {
-          throw new Error('Storage not properly configured. Please contact support.');
-        }
-
         const { error: uploadError, data } = await supabase.storage
           .from('cvs')
           .upload(fileName, formData.cv, {
@@ -101,8 +93,8 @@ const LavoraConNoiPage = () => {
             email: formData.email,
             phone: formData.phone,
             message: formData.message,
-            cv_url: cvUrl,
-            cv_filename: cvFilename,
+            cv_url: cvUrl || null,
+            cv_filename: cvFilename || null,
           },
         ]);
 
