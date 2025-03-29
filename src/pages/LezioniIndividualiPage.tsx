@@ -55,7 +55,7 @@ const LezioniIndividualiPage = () => {
 
         <div className="space-y-6">
           <img
-            src="/assets/getting-your-degree.jpg"
+            src="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jD6hksSOA1TNIP058x2ets3EiuqrmWDQlY7nRj"
             alt="Lezione individuale"
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />

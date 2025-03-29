@@ -19,28 +19,28 @@ const newsItems: NewsItem[] = [
     title: "Pensiero di Donna",
     date: "8 Marzo 2025",
     description: "In occasione della Festa della Donna, il Centro Studi Il Sapere organizza Pensiero di Donna, un evento speciale per celebrare il talento, la forza e la creatività femminile attraverso l'arte, la letteratura e il confronto.",
-    imageUrl: "/assets/Pensierodidonna.jpg",
+    imageUrl: "https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDFkqpH485Fd2VsTxyZE6Sguaz9t1nO8woC3M5",
     link: "/news/pensiero-di-donna"
   },
   {
     title: "Festa di Carnevale",
     date: "3 Marzo 2025",
     description: "Festa di Carnevale al Centro Studi Il Sapere! Tutti gli iscritti e i loro amici sono invitati a un pomeriggio di giochi, musica, divertimento e buon cibo. Durante l'evento premieremo la maschera più bella. Vi aspettiamo nella nostra sede di Trinitapoli il 3 marzo dalle 17:00 alle 19:00. Non mancate!",
-    imageUrl: "/assets/carnevale.jpg",
+    imageUrl: "https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDL0iQVMYZtFw6921Ncavm7dWhfIBC5XbKk8zS",
     link: "/news/carnevale"
   },
   {
     title: "Ripartono i nostri corsi!",
     date: "15 Settembre 2024",
     description: "Dopo la pausa estiva, il 15 settembre riprendono ufficialmente tutte le attività del Centro Studi Il Sapere!",
-    imageUrl: "/assets/assistenza didattica.jpg",
+    imageUrl: "https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDqqVpswB24vXR9TcSQj6VWU7nGsDArOwLtFiy",
     link: "/news/riaprono-i-corsi"
   },
   {
     title: "Milonga in Piazza",
     date: "21 Agosto 2024",
     description: "Il 21 agosto, nella splendida cornice di Margherita di Savoia, si è tenuta una milonga indimenticabile, un evento che ha riunito appassionati di tango da tutta la regione.",
-    imageUrl: "/assets/milonga estate.jpg",
+    imageUrl: "https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDJkipWvhumXQxVpThlJ5bFKSBPO0L1GMZwY9k",
     link: "/news/milonga"
   }
 ];

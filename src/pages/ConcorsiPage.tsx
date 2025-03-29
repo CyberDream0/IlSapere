@@ -69,7 +69,7 @@ const ConcorsiPage = () => {
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
           <img
-            src="/assets/dipendenti-pubblici-pa.jpg"
+            src="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jD9JKZTWisSnL4bjZhJFvrcTxkQUgOpH6Yt3iA"
             alt="Simulazione d'esame"
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />

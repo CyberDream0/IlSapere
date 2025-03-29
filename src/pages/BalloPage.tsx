@@ -61,17 +61,17 @@ const BalloPage = () => {
 
           <div className="space-y-6">
             <img
-              src="/assets/immaginetango.jpg"
+              src="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDmjN5fqNkUk36mXcF9BJeRo2ixTVzMCulb0Ot"
               alt="Lezione di danza classica"
               className="w-full h-64 object-cover rounded-lg shadow-lg"
             />
             <img
-               src="/assets/world-tango-day.jpg"
+               src="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDhoOEBaTOzTKIHX5gw8d0nECcS1oJN9LDjaeY"
               alt="Esibizione di danza moderna"
               className="w-full h-64 object-cover rounded-lg shadow-lg"
             />
             <img
-              src="/assets/ginnastica-dolce-esercizi.jpg"
+              src="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jD6hIxLax1TNIP058x2ets3EiuqrmWDQlY7nRj"
               alt="Corso di hip-hop"
               className="w-full h-64 object-cover rounded-lg shadow-lg"
             />

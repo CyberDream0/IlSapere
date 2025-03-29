@@ -78,7 +78,7 @@ function HomePage() {
             <ServiceCard
               title="Doposcuola e lezioni private per bambini e ragazzi"
               description="Un ambiente stimolante dove i compiti diventano opportunità di crescita. Supporto personalizzato per ogni materia scolastica e livello."
-              imageUrl="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+              imageUrl="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDzM49Ii8G5EANhOF8QmKcnBPIDt9LMJvxqVaU"
               icon={<BookOpen className="w-8 h-8 text-primary-600" />}
               link="/servizi/doposcuola"
             />
@@ -106,14 +106,14 @@ function HomePage() {
             <ServiceCard
               title="Corsi di ballo e attivita' fisica"
               description="Corsi di tango argentino e ginnastica soft. Lezioni per tutte le età e livelli di esperienza."
-              imageUrl="assets/immaginetango.jpg"
+              imageUrl="ZcR2ERKlx2jDmjN5fqNkUk36mXcF9BJeRo2ixTVzMCulb0Ot"
               icon={<Music className="w-8 h-8 text-primary-600" />}
               link="/servizi/ballo"
             />
             <ServiceCard
               title="Master e corsi di laurea universitari"
               description="Lezioni e approccio completamente personalizzato per massimizzare i risultati. Tanti corsi universitari fra cui scegliere."
-              imageUrl="/assets/universita' telematica.jpg"
+              imageUrl="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jD1GoafTJXCa16DNWgxPbB8hsErL9MRj2z3ufe"
               icon={<Users className="w-8 h-8 text-primary-600" />}
               link="/servizi/lezioni-individuali"
             />

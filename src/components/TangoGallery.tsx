@@ -16,23 +16,23 @@ const TangoGallery = () => {
   const galleryItems = [
     {
       type: 'image',
-      src: '/assets/CollageTango.jpg',
+      src: 'https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDb11mXhXc7Tr2wgbCHnMUF5teXSzoIuYN1f63',
       alt: 'Collage di eventi di tango',
     },
     {
       type: 'video',
-      src: '/assets/anteprima.png',
+      src: 'https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jD2yyvgzmsOmAuWyEfiL5pHaz8o7UXMqhB9G1T',
       alt: 'Anteprima video tango',
       onClick: handleVideoClick,
     },
     {
       type: 'image',
-      src: '/assets/pratilonga.jpg',
+      src: 'https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDT2pUledhKXvZ4NkRIjex8DQpbygSYi7Cz5ow',
       alt: 'Pratilonga di tango',
     },
     {
       type: 'image',
-      src: '/assets/milonga28feb.jpg',
+      src: 'https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDb5D1Qnc7Tr2wgbCHnMUF5teXSzoIuYN1f63V',
       alt: 'Milonga 28 febbraio',
     }
   ];

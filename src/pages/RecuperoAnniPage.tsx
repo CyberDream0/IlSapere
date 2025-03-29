@@ -65,7 +65,7 @@ const RecuperoAnniPage = () => {
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
           <img
-            src="/assets/exam.jpg"
+            src="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDmo61JekUk36mXcF9BJeRo2ixTVzMCulb0Otw"
             alt="Gruppo di studio"
             className="w-full h-64 object-cover rounded-lg shadow-lg"
           />
