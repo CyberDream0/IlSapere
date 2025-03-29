@@ -85,7 +85,7 @@ function HomePage() {
             <ServiceCard
               title="Lezioni e certificazioni d'Inglese"
               description="Preparazione completa per certificazioni Cambridge e British. Docenti madrelingua qualificati e approcci didattici all'avanguardia."
-              imageUrl="/home/project/dist/assets/English_language.svg.png"
+              imageUrl="https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDh5gmpgTOzTKIHX5gw8d0nECcS1oJN9LDjaeY"
               icon={<Languages className="w-8 h-8 text-primary-600" />}
               link="/servizi/inglese"
             />
