@@ -16,6 +16,8 @@ import RiapronoICorsi from './pages/news/RiapronoICorsi';
 import MilongaPage from './pages/news/MilongaPage';
 import CarnevalePage from './pages/news/CarnevalePage';
 import PensieroDiDonnaPage from './pages/news/PensieroDiDonnaPage';
+import FlamingoTangoPage from './pages/news/FlamingoTangoPage';
+import PratilongaPage from './pages/news/PratilongaPage';
 import LavoraConNoiPage from './pages/LavoraConNoiPage';
 
 function App() {
@@ -36,9 +38,11 @@ function App() {
       <Route path="/news/milonga" element={<MilongaPage />} />
       <Route path="/news/carnevale" element={<CarnevalePage />} />
       <Route path="/news/pensiero-di-donna" element={<PensieroDiDonnaPage />} />
+      <Route path="/news/flamingo-tango" element={<FlamingoTangoPage />} />
+      <Route path="/news/pratilonga" element={<PratilongaPage />} />
       <Route path="/lavora-con-noi" element={<LavoraConNoiPage />} />
     </Routes>
   );
 }
 
-export default App
+export default App;

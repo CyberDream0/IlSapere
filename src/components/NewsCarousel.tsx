@@ -16,6 +16,20 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
+    title: "Pratilonga & Buffet – Tecnica del Tango Argentino",
+    date: "6 Aprile 2025",
+    description: "Una serata dedicata all'apprendimento e alla pratica della Tecnica del Tango Argentino, in un ambiente rilassato e conviviale. Un'occasione perfetta per migliorare le proprie abilità e condividere la passione per il tango, accompagnata da un buffet offerto a tutti i partecipanti.",
+    imageUrl: "https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jD8YaRMyAO9FWcA0t2Kxfrji8eIGCnSQ5y4HJo",
+    link: "/news/pratilonga"
+  },
+  {
+    title: "Milonga - Flamingo Tango",
+    date: "19 Aprile 2025",
+    description: "Una serata speciale dedicata agli amanti del tango argentino, all'insegna della musica, del ballo e della convivialità. La splendida atmosfera del Villaggio Piccolo Eden farà da cornice a una milonga imperdibile, accompagnata da un menù ricco e gustoso.",
+    imageUrl: "https://pc12gooo1r.ufs.sh/f/ZcR2ERKlx2jDT3LaWLdhKXvZ4NkRIjex8DQpbygSYi7Cz5ow",
+    link: "/news/flamingo-tango"
+  },
+  {
     title: "Pensiero di Donna",
     date: "8 Marzo 2025",
     description: "In occasione della Festa della Donna, il Centro Studi Il Sapere organizza Pensiero di Donna, un evento speciale per celebrare il talento, la forza e la creatività femminile attraverso l'arte, la letteratura e il confronto.",
