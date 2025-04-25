@@ -307,6 +307,9 @@ function HomePage() {
                 Cookie Policy
               </a>
             </div>
+            <p className="mt-4 text-xs text-secondary-400">
+              Powered by <a href="https://cyberdream.studio" className="text-[#00c2cb] hover:text-[#00d8e2] transition-colors" target="_blank" rel="noopener noreferrer">CyberDream</a>
+            </p>
           </div>
         </div>
       </footer>
